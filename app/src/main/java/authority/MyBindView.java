@@ -89,7 +89,6 @@ public class MyBindView {
 
         // 得到activity所有字段
         Field[] fields = a.getDeclaredFields();
-        int j = 0;
 
         // 得到被ViewBindId注解的字段
         for (Field field : fields) {
